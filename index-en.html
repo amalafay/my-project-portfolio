@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Absalon Malafay Vela" />
+		<meta name="description" content="Web Designer" />
+		<meta
+			name="keywords"
+			content="Web design, custom development, punctuality, programming"
+		/>
+		<meta name="theme-color" content="#09f" />
+		<!-- Iconos  -->
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+		<!-- Fuente -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Portafolio: Absalon Malafay Vela</title>
+		<link rel="icon" href="assets/img/logo.png" type="image/png" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<script type="module" src="assets/js/main.js"></script>
+		<!-- Email JS -->
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+		></script>
+		<script type="text/javascript">
+			(function () {
+				emailjs.init({
+					publicKey: '79J6DAkjjXfgqR53F',
+				});
+			})();
+		</script>
+	</head>
+
+	<body>
+		<!-- Loader -->
+		<div class="loader flex--container">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 237 268"
+				class="loader__logo"
+			>
+				<path
+					fill="currentColor"
+					d="M108.473 2.81055C114.675 -0.783262 122.325 -0.783265 128.527 2.81055L226.74 59.7212C232.912 63.298 236.712 69.8919 236.712 77.0259V190.974C236.712 198.108 232.912 204.702 226.74 208.279L128.527 265.189C122.325 268.783 114.675 268.783 108.473 265.189L10.2601 208.279C4.08755 204.702 0.287529 198.108 0.287529 190.974V77.0259C0.287529 69.8919 4.08754 63.298 10.2601 59.7212L108.473 2.81055Z"
+				></path>
+			</svg>
+		</div>
+		<header class="header">
+			<nav class="navbar grid--container flex--container">
+				<a class="navbar__logo flex--container" href="#">
+					<img src="assets/img/logo_largo.png" alt="Logo Absalon"></a>
+
+				<div id="nav" class="navbar__menu">
+					<a href="#close"
+						><i class="bx bx-x btn__close navbar__icon flex--container"></i
+					></a>
+
+					<ul class="navbar__list flex--container">
+						<li class="navbar__item">
+							<a class="navbar__link active" href="#home">Home</a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="#about">About Me</a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="#skills">Skills</a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="#projects">Portfolio</a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="navbar__toggles flex--container">
+					<div class="navbar__toggle--darkmode flex--container">
+						<input
+							type="checkbox"
+							name="color-scheme"
+							id="darkmode-toggle"
+							class="navbar__toggle--darkmode-input"
+						/>
+						<label for="darkmode-toggle" class="navbar__toggle--darkmode-label">
+							<i class="bx bx-sun navbar__toggle--darkmode-sun"></i>
+							<i class="bx bx-moon navbar__toggle--darkmode-moon"></i>
+						</label>
+					</div>
+					<div class="navbar__toggle--language flex--container">
+						<input
+							type="checkbox"
+							name="language-toggle"
+							id="language-toggle"
+							class="navbar__toggle--language-input"
+						/>
+						<label
+							for="language-toggle"
+							class="navbar__toggle--language-label"
+						></label>
+					</div>
+				</div>
+				<a href="#nav"><i class="bx bx-menu btn__open navbar__icon"></i></a>
+			</nav>
+		</header>
+
+		<main>
+			<section id="home" class="home">
+				<i class="bx bxl-html5 home__layer home__layer--1" data-speed="-5"></i>
+				<i
+					class="bx bxl-javascript home__layer home__layer--2"
+					data-speed="5"
+				></i>
+				<i class="bx bxl-css3 home__layer home__layer--3" data-speed="2"></i>
+				<i class="bx bxl-nodejs home__layer home__layer--4" data-speed="6"></i>
+				<i class="bx bxl-react home__layer home__layer--5" data-speed="8"></i>
+				<i
+					class="bx bxl-tailwind-css home__layer home__layer--6"
+					data-speed="-2"
+				></i>
+				<i class="bx bxl-redux home__layer home__layer--7" data-speed="4"></i>
+				<i
+					class="bx bxl-typescript home__layer home__layer--8"
+					data-speed="-2"
+				></i>
+				<i class="bx bxl-git home__layer home__layer--9" data-speed="6"></i>
+				<i
+					class="bx bxl-graphql home__layer home__layer--10"
+					data-speed="-7"
+				></i>
+				<i
+					class="bx bx-code-alt home__layer home__layer--11"
+					data-speed="-5"
+				></i>
+				<div class="home__container grid--container">
+					<div class="home__image">
+						<img
+							src="assets/img/profile.png"
+							alt="profile photo"
+							title="Absalon Malafay Vela"
+						/>
+					</div>
+
+					<ul class="home__social flex--container">
+						<li class="home__social-item">
+							<a class="home__social-link" href="https://www.linkedin.com/in/absalon-malafay-vela-765a8bb0/" target="_blank"
+								><i class="bx bxl-linkedin"></i
+							></a>
+						</li>
+						<li class="home__social-item">
+							<a class="home__social-link" href="https://wa.link/ykoh48" target="_blank"
+								><i class="bx bxl-whatsapp"></i
+							></a>
+						</li>
+						<li class="home__social-item">
+							<a class="home__social-link" href="https://github.com/amalafay" target="_blank"
+								><i class="bx bxl-github"></i
+							></a>
+						</li>
+						<li class="home__social-item">
+							<a class="home__social-link" href="mailto:absalon.malafay@gmail.com" target="_blank"
+								><i class="bx bx-envelope"></i
+							></a>
+						</li>
+					</ul>
+
+					<div class="home__info">
+						<h1 class="home__title">Hello, I'm Absalon</h1>
+
+						<p class="home__description">
+							I'm a web developer, passionate about technology and programming.
+						</p>
+					</div>
+
+					<div class="home__buttons">
+						<a
+							class="btn btn--primary hvr-bounce-to-top"
+							href="assets/docs/cv_amv_en.pdf"
+							title="Descargar mi CV"
+							download="my_cv"
+							rel="noreferrer nofollow"
+						>
+                        Download CV
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section id="about" class="about section">
+				<h2 class="section__title">About Me</h2>
+
+				<div class="about__container grid--container">
+					<p class="about__description">
+						Hello! I'm Absalon, a web designer passionate about creating engaging, functional, 
+                        and user-centric digital experiences. With 19 years of experience in the field, 
+                        I specialize in responsive design, UI/UX, and front-end development, 
+                        combining creativity and technology to bring unique projects to life.
+					</p>
+
+					<div class="about__cards flex--container">
+						<!--Card 1 -->
+						<div class="about__card">
+							<img
+								class="about__card--img"
+								src="assets/img/me_1.jpg"
+								alt="My other passion"
+								title="My other passion"
+							/>
+						</div>
+						<!--Card 2 -->
+						<div class="about__card">
+							<img
+								class="about__card--img"
+								src="assets/img/me_2.jpg"
+								alt="Working as a designer"
+								title="Working as a designer"
+							/>
+						</div>
+						<!--Card 3 -->
+						<div class="about__card">
+							<img
+								class="about__card--img"
+								src="assets/img/me_3.jpg"
+								alt="Working as a team"
+								title="Working as a team"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="skills" class="skills section">
+				<h2 class="section__title">Skills</h2>
+
+				<div class="skills__container grid--container">
+					<p class="skills__description flex--container">
+						My approach goes beyond aesthetics: I seek to understand the needs of the client
+                        and their audience to offer solutions that are not only visually striking,
+                        but also intuitive and effective. I work with tools such as HTML5, CSS3, JavaScript, and React,
+                        always keeping up with the latest industry trends.
+					</p>
+
+					<div class="skills__wrapper flex--container">
+						<div class="skills__cards flex--container">
+							<!--Card 1 -->
+							<details class="skills__cards-container" name="moreInfo" open>
+								<summary class="skills__cards-title flex--container">
+									<i class="bx bxl-html5 flex--container"></i>
+								</summary>
+								<div class="skills__card-container">
+									<h3 class="skills__card-title">HTML</h3>
+
+									<p class="skills__card-description">
+										It is the structural foundation of the web. It defines the content and semantics of a page using modern tags, 
+                                        allowing for improved accessibility and compatibility.
+									</p>
+								</div>
+							</details>
+							<!--Card 2 -->
+							<details class="skills__cards-container" name="moreInfo">
+								<summary class="skills__cards-title flex--container">
+									<i class="bx bxl-css3 flex--container"></i>
+								</summary>
+								<div class="skills__card-container">
+									<h3 class="skills__card-title">CSS3</h3>
+
+									<p class="skills__card-description">
+										This is where the magic begins. Transform web design with advanced styles, animations, 
+                                        flexbox, grid, and responsive layout. Thanks to CSS3, pages are visually appealing and adapt to any device.
+									</p>
+								</div>
+							</details>
+							<!--Card 3 -->
+							<details class="skills__cards-container" name="moreInfo">
+								<summary class="skills__cards-title flex--container">
+									<i class="bx bxl-javascript flex--container"></i>
+								</summary>
+								<div class="skills__card-container">
+									<h3 class="skills__card-title">Javascript</h3>
+
+									<p class="skills__card-description">
+										The language that brings interactivity to the web. 
+                                        From validating forms to creating dynamic applications, 
+                                        JS is essential for front-end development (and back-end development with Node.js).
+									</p>
+								</div>
+							</details>
+							<!--Card 4 -->
+							<details class="skills__cards-container" name="moreInfo">
+								<summary class="skills__cards-title flex--container">
+									<i class="bx bxl-react flex--container"></i>
+								</summary>
+								<div class="skills__card-container">
+									<h3 class="skills__card-title">React</h3>
+
+									<p class="skills__card-description">
+										A JavaScript library created by Facebook for building efficient and reusable user interfaces. 
+                                        Its focus on components and the Virtual DOM optimizes performance, making it ideal for SPAs and scalable applications.
+									</p>
+								</div>
+							</details>
+						</div>
+					</div>
+					<div class="skills__tags flex--container">
+						<h3 class="skills__tags-title">Soft Skills</h3>
+						<div class="skills__tags-container flex--container">
+							<span class="skills__tag">Responsible</span>
+							<span class="skills__tag">Teamwork</span>
+							<span class="skills__tag">Creative</span>
+							<span class="skills__tag">Punctual</span>
+							<span class="skills__tag">Proactive</span>
+							<span class="skills__tag">Autodidact</span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="projects" class="projects section">
+				<h2 class="section__title">Projects</h2>
+
+				<div class="projects__container grid--container">
+					<div class="projects__project">
+						<div class="projects__inner grid--container">
+							<div class="projects__image">
+								<img
+									src="assets/img/project1.jpg"
+									alt="Walla Zulu all power"
+									title="Walla Zulu, veterans in action"
+								/>
+							</div>
+
+							<div class="projects__info">
+								<h3 class="projects__name">Walla Zulu Group</h3>
+								<p class="projects__description">
+									Group of military veterans and discharged personnel with a corporate vision and mission for training.
+								</p>
+
+								<div class="projects__buttons">
+									<a href="https://www.wallazulugroup.org/" target="_blank"><button class="btn projects__button hvr-bounce-to-top" type="button">
+										SEE DEMO
+									</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="projects__project">
+						<div class="projects__inner grid--container">
+							<div class="projects__image">
+								<img
+									src="assets/img/project2.png"
+									alt="Yacurunatours travel agency"
+									title="Yacurunatours travel agency"
+								/>
+							</div>
+
+							<div class="projects__info">
+								<h3 class="projects__name">Yacuruna Tours</h3>
+								<p class="projects__description">
+									River transportation and tourism agency located in the Peruvian Amazon.
+								</p>
+
+								<div class="projects__buttons">
+									<a href="https://yacurunatours.com.pe/" target="_blank"><button class="btn projects__button  hvr-bounce-to-top" type="button">SEE DEMO
+									</button></a>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="projects__project">
+						<div class="projects__inner grid--container">
+							<div class="projects__image">
+								<img
+									src="assets/img/project3.jpg"
+									alt="Veterans in Action"
+									title="Veterans and Disabled Persons Institute"
+								/>
+							</div>
+
+							<div class="projects__info">
+								<h3 class="projects__name">Ideproveli</h3>
+								<p class="projects__description">
+									Graduate website to promote the personal and professional development of their peers.
+								</p>
+
+								<div class="projects__buttons">
+									<a href="https://www.ideproveli.org/" target="_blank"><button class="btn projects__button hvr-bounce-to-top" type="button">
+										SEE DEMO
+									</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="projects__project">
+						<div class="projects__inner grid--container">
+							<div class="projects__image">
+								<img
+									src="assets/img/project4.png"
+									alt="Licita Durand"
+									title="Licita Durand, your friendly boutique"
+								/>
+							</div>
+
+							<div class="projects__info">
+								<h3 class="projects__name">Licita Boutique</h3>
+								<p class="projects__description">
+									Licita Durand offers hand-embroidered work.
+								</p>
+
+								<div class="projects__buttons">
+									<a href="https://licitaboutique.com/" target="_blank"><button class="btn projects__button hvr-bounce-to-top" type="button">
+										SEE DEMO
+									</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="contact" class="contact section">
+				<h2 class="section__title">Contact</h2>
+
+				<div class="contact__container grid--container">
+					<div class="contact__info">
+						<h3 class="contact__info-title">Contact information</h3>
+						<p class="contact__info-description">
+							Contact me, let's have a coffee and talk about your project.
+						</p>
+
+						<address class="contact__info-data">
+							<div class="contact__info-item">
+								<i class="bx bxl-whatsapp"></i>
+
+								<span class="contact__info-number">
+									<a
+										href="https://wa.link/ykoh48"
+										target="_blank"
+										rel="noreferrer nofollow"
+										>Send a message to WhatsApp</a
+									>
+								</span>
+							</div>
+
+							<div class="contact__info-item">
+								<i class="bx bx-phone"></i>
+
+								<span class="contact__info-number">
+									<a
+										href="tel:+51-991-906-830"
+										target="_blank"
+										rel="noreferrer nofollow"
+									>
+										+51 991 906 830
+									</a>
+								</span>
+							</div>
+
+							<div class="contact__info-item">
+								<i class="bx bxs-envelope"></i>
+
+								<span class="contact__info-mail">
+									<a
+										id="mail"
+										href="mailto:absalon.malafay@gmail.com"
+										target="_blank"
+										rel="noreferrer nofollow"
+									>
+										absalon.malafay@gmail.com
+									</a>
+								</span>
+							</div>
+
+							<div class="contact__info-item">
+								<i class="bx bx-map"></i>
+
+								<span class="contact__info-map"> Lima, Perú. </span>
+							</div>
+						</address>
+					</div>
+					<div class="contact__form">
+						<h3 class="contact__form-title">Send message</h3>
+						<form id="form" class="contact__form-container">
+							<div class="contact__form-group">
+								<label for="name" class="contact__form-label">Name</label>
+								<input
+									type="text"
+									id="name"
+									name="name"
+									class="contact__form-input"
+									required
+								/>
+							</div>
+
+							<div class="contact__form-group">
+								<label for="email" class="contact__form-label">Email</label>
+								<input
+									type="email"
+									id="email"
+									name="email"
+									class="contact__form-input"
+									required
+								/>
+							</div>
+
+							<div class="contact__form-group">
+								<label for="subject" class="contact__form-label">subject</label>
+								<input
+									type="text"
+									id="subject"
+									name="subject"
+									class="contact__form-input"
+									required
+								/>
+							</div>
+
+							<div class="contact__form-group">
+								<label for="message" class="contact__form-label">Message</label>
+								<textarea
+									id="message"
+									name="message"
+									cols="30"
+									rows="10"
+									class="contact__form-input"
+									required
+								></textarea>
+							</div>
+							<dialog class="contact__form-modal" id="modal">
+								Form sent successfully!
+								<button type="reset" id="btn_close-modal">Close</button>
+							</dialog>
+
+							<button type="submit" class="btn contact__form-button hvr-bounce-to-top">
+								Send
+							</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer section">
+			<div class="footer__container grid--container">
+				<div class="footer__info">
+					<img src="assets/img/logo_largo.png" alt="Logo Absalon">
+					<p class="footer__description">
+						I'm a web developer, passionate about technology and programming.
+					</p>
+				</div>
+
+				<div class="footer__social">
+					<h3 class="footer__title">Social media</h3>
+
+					<ul class="footer__social-list">
+						<li class="footer__social-item">
+							<a
+								class="footer__social-link"
+								href="https://www.facebook.com/absalon.malafayvela"
+								target="_blank"
+								rel="noreferrer nofollow"
+								><i class="bx bxl-facebook"></i
+							></a>
+						</li>
+
+						<li class="footer__social-item">
+							<a
+								class="footer__social-link"
+								href="https://www.instagram.com/absalon_malafay/"
+								target="_blank"
+								rel="noreferrer nofollow"
+								><i class="bx bxl-instagram"></i
+							></a>
+						</li>
+
+						<li class="footer__social-item">
+							<a
+								class="footer__social-link"
+								href="https://wa.link/ykoh48"
+								target="_blank"
+								rel="noreferrer nofollow"
+								><i class="bx bxl-whatsapp"></i
+							></a>
+						</li>
+
+						<li class="footer__social-item">
+							<a
+								class="footer__social-link"
+								href="https://www.linkedin.com/in/absalon-malafay-vela-765a8bb0/"
+								target="_blank"
+								rel="noreferrer nofollow"
+								><i class="bx bxl-linkedin"></i
+							></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<p class="footer__copy"><span></span> All rights reserved</p>
+		</footer>
+	</body>
+</html>
